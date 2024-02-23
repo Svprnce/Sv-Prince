@@ -1,0 +1,16 @@
+.nav{
+    background-color: var(--primary-bg);
+}
+.navbar{
+    /* max-width: 1024px;
+    margin: 0px auto; */
+    padding: 0.7em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-menu > ul{
+    display: flex;
+    gap: 10px;
+}

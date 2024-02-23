@@ -1,0 +1,6 @@
+.quotes{
+    background-color: var(--primary-bg);
+    text-align: center;
+    color: black;
+    padding: 1em;
+}

@@ -1,0 +1,43 @@
+.qualification-div{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+.qualification-div > *{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.education-div{
+    width: 48%;
+}
+.info-ul{
+    margin-top: 0.5em;
+    padding: 0.3em;
+}
+.info-li{
+    padding: 1em;
+    border: 1px var(--primary-bg) solid;
+    border-radius: 0.2em;
+    height: 10em;
+    display: flex;
+    /* width: 20em; */
+    margin-block: 0.5em;
+}
+.info-li-div{
+    display: grid;
+    gap: 0.5em;
+    margin-block: 0.2em;
+}
+
+.info-li-div-detail{
+    display: flex;
+    justify-content: space-between;
+}
+.info-li-btn{
+    height: 2em;
+}
+.experience-div{
+    width: 48%;
+}
