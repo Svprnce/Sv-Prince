@@ -1,0 +1,19 @@
+.footer-div{
+    /* padding: 0.3em; */
+    background-color: black;
+    color: white;
+}
+.footer-content{
+    padding: 2em;
+}
+.footer-ul{
+    display: grid;
+    gap: 0.5em;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.credits{
+    padding: 0.3em;
+    border-top: 1px solid rgba(255, 255, 255, 0.356);
+
+}

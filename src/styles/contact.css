@@ -1,0 +1,34 @@
+.contact-div{
+    max-width: 50em;
+    width: 30em;
+    padding: 1em;
+    border-radius: 0.4em;
+    margin: 2em;
+}
+.contact-div > form{
+    /* width: 1024px; */
+    display: grid;
+    place-content: center;
+    gap: 1em;
+    padding: 1em;
+
+}
+input{
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    outline: none;
+    border: none;
+    border-color: var(--primary-bg);
+    border-width: 1px;
+    border-style: solid;
+}
+.errorMessage{
+    font-size: 0.7rem;
+    color: red;
+}
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}

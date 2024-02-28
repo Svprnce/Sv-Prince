@@ -13,11 +13,10 @@
     display: none;
 }
 
-:is(.navbar, .hero, .qualification-div) {
+:is(.navbar, .hero, .qualification-div, .contact-div) {
     max-width: 1024px;
     margin-inline: auto;
 }
-
 button {
     /* color: whitesmoke; */
     border: none;
@@ -25,12 +24,31 @@ button {
     border-radius: 0.2em;
     background-color: rgba(255, 174, 0, 0.788);
 }
-.gradient-heading{
-    background: rgb(131, 58, 180);
-    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+
+.gradient-heading {
+    background: #ee0979;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.gradient-heading-logo {
+    background: #ee0979;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .grey-text {
     color: grey;
 }
