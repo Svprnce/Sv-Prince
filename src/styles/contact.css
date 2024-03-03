@@ -32,3 +32,22 @@ input{
     justify-content: space-between;
     gap: 1em;
 }
+
+@media screen and (max-width:430px) {
+    /* .p{
+        font-size: smaller;
+    } */
+    .contact-div{
+        width: 95vw;
+        padding: 0.5em;
+    }
+    .contact-div > form{
+        padding: 0.9em;
+    }
+    .errorMessage{
+        font-size: 0.6rem;
+    }
+    .contact-details{
+        gap: 0.5em;
+    }
+}

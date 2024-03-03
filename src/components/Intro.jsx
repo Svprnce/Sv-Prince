@@ -67,8 +67,8 @@ const Intro = () => {
                         
                     </div>
                     <div className="button-group">
-                        <button>Message on LinkedIN</button>
-                        <button>Download CV</button>
+                        <button>LinkedIN</button>
+                        <button>Resume</button>
                     </div>
                     {/* <p className='intro-quote'><q>Clean code always looks like it was written by someone who cares. </q> By Robert C. Martin</p> */}
                     {/* <h1 >I am a <span className='h-intro-text'></span></h1> */}

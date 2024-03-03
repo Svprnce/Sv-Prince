@@ -1,62 +1,103 @@
-.skills-div{
-    margin-top: 1em;
+.skills-div {
+  margin-top: 1em;
 }
-.skills-div h3{
-    margin-top: 1em;
+
+.skills-div h3 {
+  margin-top: 1em;
 }
+
 .skills-ul {
-    padding: 2em;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 1em;
+  padding: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 
 .skills-li {
-    width: 10em;
-    height: 12em;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1em;
-    position: relative;
-    perspective: 1000px;
+  width: 10em;
+  height: 12em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1em;
+  position: relative;
+  perspective: 1000px;
 
 }
 
 .skill {
-    display: grid;
+  display: grid;
 }
-.skill-front, .skill-back {
-    position: absolute;
-    padding: 1em;
-    width: 10em;
-    height:12em;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1em;
-    backface-visibility: hidden; 
-    transition: transform 0.5s ease;
-  }
+
+.skill-front,
+.skill-back {
+  position: absolute;
+  padding: 1em;
+  width: 10em;
+  height: 12em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1em;
+  backface-visibility: hidden;
+  transition: transform 0.5s ease;
+}
+
 .skill-front {
-    z-index: 2;
-  }
+  z-index: 2;
+}
 
-  .skill-back {
-    background-color: var(--primary-bg);
-    transform: rotateY(180deg); /* Rotate back side 180 degrees */
-  }
+.skill-back {
+  background-color: var(--primary-bg);
+  transform: rotateY(180deg);
+  /* Rotate back side 180 degrees */
+}
 
-  .skills-li:hover .skill-front {
-    transform: rotateY(-180deg); /* Rotate front side 180 degrees on hover */
-  }
+.skills-li:hover .skill-front {
+  transform: rotateY(-180deg);
+  /* Rotate front side 180 degrees on hover */
+}
 
-  .skills-li:hover .skill-back {
-    transform: rotateY(0); /* Rotate back side 0 degrees on hover */
-  }
+.skills-li:hover .skill-back {
+  transform: rotateY(0);
+  /* Rotate back side 0 degrees on hover */
+}
 
 .skill-img-div>img {
-    width: 7em;
-    height: 7em;
+  width: 7em;
+  height: 7em;
 
 }
 
+@media screen and (max-width:430px) {
+  .skills-ul {
+    padding: 1em;
+    gap: 0.3em;
+   
+  }
+  
+  .skills-li {
+    margin-block: 0.2em;
+    width: 6em;
+    height: 8em;  
+    border-radius: 0.5em;
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  .skill-front,
+  .skill-back {
+    width: 6em;
+    height: 8em;
+    border-radius: 0.5em;
+  }
+  .skill-img-div>img {
+    margin: 0px 1em;
+    width: 3em;
+    height: 3em;
+  
+  }
+}
