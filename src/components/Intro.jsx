@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react'
 import '../styles/intro.css'
 import Typewriter from 'typewriter-effect';
+import Spinner from './spinner';
 
 const Intro = () => {
+    const [image, setimage] = useState()
     // let arr = ['hi', 'hello prince', 'namaste']
     // // // while(arr){
 
@@ -46,6 +48,19 @@ const Intro = () => {
     //         , 100);
     //     return () => clearInterval(interval)
     // }, [index, reverse])
+
+    const loadimg = (url)=>{
+        return new Promise((resolve)=>{
+            const myImage = new Image();
+            myImage.addEventListener('load',()=>{
+                resolve(myImage)
+            })
+            myImage.src = url
+        })
+    }
+    useEffect(()=>{
+        loadimg('https://i.ibb.co/PG1WKGv/svprince.png').then(resimg => setimage(resimg))
+    },[])
     return (
         <>
 
@@ -72,7 +87,8 @@ const Intro = () => {
                     {/* <p className='intro-quote'><q>Clean code always looks like it was written by someone who cares. </q> By Robert C. Martin</p> */}
                     {/* <h1 >I am a <span className='h-intro-text'></span></h1> */}
                 </div>
-                <div className='hero-img-div'><img className='hero-img' src='https://i.ibb.co/PG1WKGv/svprince.png' alt="" srcset="" /></div>
+               {image ? <div className='hero-img-div'><img className='hero-img' src={image.src} alt="" srcSet="" /></div> : <Spinner/>}
+                {/* <div className='hero-img-div'><img className='hero-img' src='https://i.ibb.co/PG1WKGv/svprince.png' alt="" srcSet="" /></div> */}
             </div>
         </>
     )
