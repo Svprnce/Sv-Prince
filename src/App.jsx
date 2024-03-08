@@ -1,6 +1,7 @@
 import Intro from "./components/Intro"
 import Contact from "./components/contact"
 import Footer from "./components/footer"
+import Linkspage from "./components/links"
 import Navbar from "./components/navbar"
 import Qualification from "./components/qualification"
 import Quotes from "./components/quotes"
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
     <Navbar/>
+    {/* <Linkspage/> */}
     <Intro/>
     <Quotes quote={'Clean code always looks like it was written by someone who cares.'} author = {'Robert C. Martin'}/>
     <Qualification/>

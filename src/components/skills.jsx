@@ -1,15 +1,7 @@
 import '../styles/skills.css'
-import htmlimg from '../assets/html.png'
-import cssimg from '../assets/css.png'
-import bootstrapimg from '../assets/bootsrap.png'
+
 import reactimg from '../assets/react.png'
-import nodejsimg from '../assets/nodejs.png'
-import mongodbimg from '../assets/mongodb.png'
-import nextjsimg from '../assets/nextjs.png'
-import javaimg from '../assets/java.png'
-import javascriptimg from '../assets/javascript.png'
-import tailwindimg from '../assets/tailwind.png'
-import reduximg from '../assets/redux.png'
+
 
 // import { useEffect, useState } from 'react'
 const Skills = () => {
@@ -22,7 +14,7 @@ const Skills = () => {
                 <ul className="skills-ul">
                     <li className='skills-li border'>
                         <div className="skill skill-front">
-                            <div className="skill-img-div"><img src={htmlimg} alt="" srcset="" /></div>
+                            <div className="skill-img-div"><img src='https://i.ibb.co/QpyRPF6/html.png' alt="" srcset="" /></div>
                             <div className="skill-detail">
                                 <h4 className='text-center gradient-heading'>Intermediate</h4>
                             </div>
@@ -36,7 +28,7 @@ const Skills = () => {
                     </li>
                     <li className='skills-li border'>
                         <div className="skill skill-front">
-                            <div className="skill-img-div"><img src={cssimg} alt="" srcset="" /></div>
+                            <div className="skill-img-div"><img src='https://i.ibb.co/G9Zf9cQ/css.png' alt="" srcset="" /></div>
                             <div className="skill-detail">
                                 <h4 className='text-center gradient-heading'>Intermediate</h4>
                             </div>
@@ -50,7 +42,7 @@ const Skills = () => {
                     </li>
                     <li className='skills-li border'>
                         <div className="skill skill-front">
-                            <div className="skill-img-div"><img src={bootstrapimg} alt="" srcset="" /></div>
+                            <div className="skill-img-div"><img src='https://i.ibb.co/jrz8hg1/bootsrap.png' alt="" srcset="" /></div>
                             <div className="skill-detail">
                                 <h4 className='text-center gradient-heading'>Intermediate</h4>
                             </div>
@@ -64,7 +56,7 @@ const Skills = () => {
                     </li>
                     <li className='skills-li border'>
                         <div className="skill skill-front">
-                            <div className="skill-img-div"><img src={tailwindimg} alt="" srcset="" /></div>
+                            <div className="skill-img-div"><img src='https://i.ibb.co/gjGzX8b/tailwind.png' alt="" srcset="" /></div>
                             <div className="skill-detail">
                                 <h4 className='text-center gradient-heading'>Intermediate</h4>
                             </div>
@@ -78,7 +70,7 @@ const Skills = () => {
                     </li>
                     <li className='skills-li border'>
                         <div className="skill skill-front">
-                            <div className="skill-img-div"><img src={javascriptimg} alt="" srcset="" /></div>
+                            <div className="skill-img-div"><img src='https://i.ibb.co/2vkhmp6/javascript.png' alt="" srcset="" /></div>
                             <div className="skill-detail">
                                 <h4 className='text-center gradient-heading'>Intermediate</h4>
                             </div>
@@ -106,7 +98,7 @@ const Skills = () => {
                     </li>
                     <li className='skills-li border'>
                         <div className="skill skill-front">
-                            <div className="skill-img-div"><img src={reduximg} alt="" srcset="" /></div>
+                            <div className="skill-img-div"><img src='https://i.ibb.co/4VpyB8X/redux.png' alt="" srcset="" /></div>
                             <div className="skill-detail">
                                 <h4 className='text-center gradient-heading'>Intermediate</h4>
                             </div>
@@ -120,7 +112,7 @@ const Skills = () => {
                     </li>
                     <li className='skills-li border'>
                         <div className="skill skill-front">
-                            <div className="skill-img-div"><img src={nodejsimg} alt="" srcset="" /></div>
+                            <div className="skill-img-div"><img src='https://i.ibb.co/NKFyR25/nodejs.png' alt="" srcset="" /></div>
                             <div className="skill-detail">
                                 <h4 className='text-center gradient-heading'>Intermediate</h4>
                             </div>
@@ -134,7 +126,7 @@ const Skills = () => {
                     </li>
                     <li className='skills-li border'>
                         <div className="skill skill-front">
-                            <div className="skill-img-div"><img src={mongodbimg} alt="" srcset="" /></div>
+                            <div className="skill-img-div"><img src='https://i.ibb.co/vHjN1T0/mongodb.png' alt="" srcset="" /></div>
                             <div className="skill-detail">
                                 <h4 className='text-center gradient-heading'>Intermediate</h4>
                             </div>
@@ -148,7 +140,7 @@ const Skills = () => {
                     </li>
                     <li className='skills-li border'>
                         <div className="skill skill-front">
-                            <div className="skill-img-div"><img src={nextjsimg} alt="" srcset="" /></div>
+                            <div className="skill-img-div"><img src='https://i.ibb.co/y4bwNK6/nextjs.png' alt="" srcset="" /></div>
                             <div className="skill-detail">
                                 <h4 className='text-center gradient-heading'>Intermediate</h4>
                             </div>
@@ -162,7 +154,7 @@ const Skills = () => {
                     </li>
                     <li className='skills-li border'>
                         <div className="skill skill-front">
-                            <div className="skill-img-div"><img src={javaimg} alt="" srcset="" /></div>
+                            <div className="skill-img-div"><img src='https://i.ibb.co/DwVZwGk/java.png' alt="" srcset="" /></div>
                             <div className="skill-detail">
                                 <h4 className='text-center gradient-heading'>Intermediate</h4>
                             </div>

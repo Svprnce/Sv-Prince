@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import introimg from '../assets/svprince.png'
 import '../styles/intro.css'
 import Typewriter from 'typewriter-effect';
 
@@ -73,7 +72,7 @@ const Intro = () => {
                     {/* <p className='intro-quote'><q>Clean code always looks like it was written by someone who cares. </q> By Robert C. Martin</p> */}
                     {/* <h1 >I am a <span className='h-intro-text'></span></h1> */}
                 </div>
-                <div className='hero-img-div'><img className='hero-img' src={introimg} alt="" srcset="" /></div>
+                <div className='hero-img-div'><img className='hero-img' src='https://i.ibb.co/PG1WKGv/svprince.png' alt="" srcset="" /></div>
             </div>
         </>
     )
